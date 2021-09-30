@@ -4,10 +4,12 @@ from .views import *
 urlpatterns = [
     path((''), home, name='home'),
     
-    #услуги, товары, сотрудники, etc.
-    #path((''), home, name='home'),
-    #path((''), home, name='home'),
-    #path((''), home, name='home'),
-    #path((''), home, name='home'),
+    #услуги, контакты, товары, сотрудники, etc.
+    path(('services/'), services, name='services'),
+    path(('contacts/'), contacts, name='contacts'),
+    path(('goods/'), goods, name='goods'),
+    path(('staff/'), staff, name='staff'),
+    path(('cabinet/'), cabinet, name='cabinet'),
+
 ]
 

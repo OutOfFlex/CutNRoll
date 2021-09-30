@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'  # os.getenv('LANG')
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Australia/Canberra'
 
 USE_I18N = True
 
